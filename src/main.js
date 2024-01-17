@@ -47,25 +47,25 @@ document.querySelector('#app').innerHTML = `
 </div>
 </div>
 
-<div class="join join-vertical lg:join-horizontal">
-<div class="card w-86 bg-base-100 shadow-xl">
-<figure><img src="./images/vending-machine-with-food-drink/421_generated.jpg" alt="Shoes" /></figure>
-<div class="card-body">
-  <h2 class="card-title">Drink Vending Machine</h2>
+<div class="card join-item w-86 bg-base-100 shadow-xl">
+<figure><img src="./images/vending-machine-with-food-drink/421_generated.jpg"" alt="Shoes" /></figure>
+<div class="card-body join-item">
+  <h2 class="card-title join-item">Drink Vending Machine</h2>
   <p>Are you thirsty? Quench your thirst with our state-of-the-art vending machine! With just a touch, you'll have a refreshing drink in your hand. Stay hydrated and satisfied with our wide selection of beverages. Don't wait, visit our vending machine today!</p>
-  <div class="card-actions justify-end">
-    <button class="btn btn-primary ">Book</button>
+  <div class="card-actions join-item justify-end">
+    <button class="btn btn-primary join-item ">Book</button>
   </div>
 </div>
 </div>
-<div class="card w-86 bg-base-100 shadow-xl">
+
+<div class="card join-item w-86 bg-base-100 shadow-xl">
 <figure><img src="./images/vending-machine-queue/422_generated.jpg" alt="Shoes" /></figure>
-<div class="card-body">
-  <h2 class="card-title">Combo Snack Machine</h2>
+<div class="card-body join-item">
+  <h2 class="card-title join-item">Combo Snack Machine</h2>
   <p>Get your favorite drinks and snacks in one place! Our combo vending machine offers a wide selection of refreshing beverages and delicious snacks. Stay hydrated and satisfied throughout the day with our convenient and reliable vending solution. Upgrade your snacking experience today!
   </p>
-  <div class="card-actions justify-end">
-    <button class="btn btn-primary ">Book</button>
+  <div class="card-actions join-item justify-end">
+    <button class="btn btn-primary join-item">Book</button>
   </div>
 </div>
 </div>
