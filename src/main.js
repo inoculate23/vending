@@ -25,7 +25,7 @@ document.querySelector('#app').innerHTML = `
 <section id="machines">
 <div class="join join-vertical lg:join-horizontal">
   
-  <div class="card join-item w-96 bg-base-100 shadow-xl">
+  <div class="card join-item w-86 bg-base-100 shadow-xl">
   <figure><img src="./images/vending-machine-business/423_generated.jpg" alt="Shoes" /></figure>
   <div class="card-body join-item">
     <h2 class="card-title join-item">Novelty Vending Machine</h2>
@@ -36,7 +36,7 @@ document.querySelector('#app').innerHTML = `
   </div>
 </div>
 
-<div class="card join-item w-96 bg-base-100 shadow-xl">
+<div class="card join-item w-86 bg-base-100 shadow-xl">
 <figure><img src="/./images/multi.jpeg" alt="Shoes" /></figure>
 <div class="card-body join-item">
   <h2 class="card-title join-item">Snack Vending Machines</h2>
@@ -46,9 +46,9 @@ document.querySelector('#app').innerHTML = `
   </div>
 </div>
 </div>
-</div>
+
 <div class="join join-vertical lg:join-horizontal">
-<div class="card w-96 bg-base-100 shadow-xl">
+<div class="card w-86 bg-base-100 shadow-xl">
 <figure><img src="./images/vending-machine-with-food-drink/421_generated.jpg" alt="Shoes" /></figure>
 <div class="card-body">
   <h2 class="card-title">Drink Vending Machine</h2>
@@ -58,7 +58,7 @@ document.querySelector('#app').innerHTML = `
   </div>
 </div>
 </div>
-<div class="card w-96 bg-base-100 shadow-xl">
+<div class="card w-86 bg-base-100 shadow-xl">
 <figure><img src="./images/vending-machine-queue/422_generated.jpg" alt="Shoes" /></figure>
 <div class="card-body">
   <h2 class="card-title">Combo Snack Machine</h2>
