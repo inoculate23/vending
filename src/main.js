@@ -3,7 +3,7 @@ import './app.css';
 document.querySelector('#app').innerHTML = `
 <div class="navbar bg-dark text-neutral-content">
 <button class="btn btn-neutral text-xl">Sin City Sweets</button>
-<button class="btn btn-neutral text-l">About Us</button>
+
 <a href="#machines"><button  class="btn btn-secondary text-l">Our Machines</button></a>
 
 
