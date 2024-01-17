@@ -10,10 +10,10 @@ document.querySelector('#app').innerHTML = `
 <button class="btn btn-primary text-l">Contact</button>
 </div>
 
-
 <div class="hero min-h-screen bg-base-200">
   <div class="hero-content flex-col lg:flex-row">
-    <img src="./images/pexels-photo-5196187.jpeg" class="max-w-sm rounded-lg shadow-2xl" />
+  <iframe id="iframe" title="#3December 2023 - The Vendomatic 360" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/95e89daf76724f2f9eb1725ce52cbe39/embed?autospin=1&autostart=1&ui_infos=0&ui_watermark_link=0&ui_watermark=0&ui_hint=0&ui_theme=dark" width="100%" height="100vh"> </iframe> 
+
     <div>
       <h1 class="text-5xl font-bold">Box Office News!</h1>
       <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
