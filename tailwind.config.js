@@ -5,7 +5,7 @@ module.exports = {
 
   // config docs: https://daisyui.com/docs/config/
   daisyui: {
-    themes: ["light", "dark", "dracula", "night", "dim", "cupcake","pastel", "wireframe", "nord", "retro" , "synthwave", "cyberpunk", "lofi", "business", "aqua", "forest"],
+    themes: ["dark", "dracula", "night", "dim", "cupcake"],
   },
   darkTheme: "dark",
   base: true, // applies background color and foreground color for root element by default
