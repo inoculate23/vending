@@ -193,7 +193,7 @@ document.querySelector('#app').innerHTML = `
 
       </div>
     
-<div class="card join-horizontal w-96 bg-base-100 shadow-xl">
+<div class="card w-96 bg-base-100 shadow-xl">
   <div class="card-body">
   
   <figure><img src="/images/david.png" alt="David" /></figure>
@@ -204,7 +204,7 @@ document.querySelector('#app').innerHTML = `
     </div>
   </div>
 
-<div class="card join-horizontal w-96 bg-base-100 shadow-xl">
+<div class="card w-96 bg-base-100 shadow-xl">
 <div class="card-body">
   
   <figure><img src="/images/rich.png" alt="Richard" /></figure>
@@ -217,7 +217,7 @@ document.querySelector('#app').innerHTML = `
     </div>
   </div>
 
-  <div class="card join-horizontal w-96 bg-base-100 shadow-xl">
+  <div class="card w-96 bg-base-100 shadow-xl">
 <div class="card-body">
   
   <figure><img src="/images/sam.png" alt="Samantha" /></figure>
