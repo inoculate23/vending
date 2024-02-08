@@ -96,34 +96,35 @@ document.querySelector('#app').innerHTML = `
 <section id="benefits">
 <center>
 <h1 class="text-5xl font-bold text-primary">Benefits & Placement</h1>
+<br>
 <div class="join join-vertical lg:join-horizontal">
   
-  <div class="card join-item w-86 bg-base-100 shadow-xl">
+  <div class="card join-item w-86 bg-warning shadow-xl">
   <div class="card-body join-item">
-    <h2 class="card-title join-item">Multiple Forms of Payment</h2>
-    <p>For greater flexibility, our machines accept credit and debit cards as well as cash. Our machines also use a system called “PayRange” which is something used at most laundry facilities today.</p>
+    <h2 class="card-title text-primary text-2xl join-item">Multiple Forms of Payment</h2>
+    <p class="text-black">For greater flexibility, our machines accept credit and debit cards as well as cash. Our machines also use a system called “PayRange” which is something used at most laundry facilities today.</p>
   </div>
 </div>
 
-<div class="card join-item w-86 bg-base-100 shadow-xl">
-<div class="card-body join-item">
-  <h2 class="card-title join-item">Convenience</h2>
-  <p>Your residents can take advantage of having snacks, juices, detergent for laundry instead of walking to the nearest convenience store We rotate our snacks to ensure the quality and freshness of our snacks and products.</p>
+<div class="card join-item w-86 text-primary  shadow-xl">
+<div class="card-body join-item bg-warning">
+  <h2 class="card-title text-primary text-2xl join-item">Convenience</h2>
+  <p class="text-black">Your residents can take advantage of having snacks, juices, detergent for laundry instead of walking to the nearest convenience store We rotate our snacks to ensure the quality and freshness of our snacks and products.</p>
 </div>
 </div>
 
-<div class="card join-item w-86 bg-base-100 shadow-xl">
-<div class="card-body join-item">
-  <h2 class="card-title join-item">Products</h2>
-  <p>We will stock machines with a wide variety of items. The items will range from: Snacks, Chips, Candy, Soap (if needed) or small household items requested.</p>
+<div class="card join-item w-86 bg-neutral-400 shadow-xl">
+<div class="card-body join-item bg-warning">
+  <h2 class="card-title text-primary text-2xl join-item">Products</h2>
+  <p class="text-black">We will stock machines with a wide variety of items. The items will range from: Snacks, Chips, Candy, Soap (if needed) or small household items requested.</p>
 </div>
 </div>
 
-<div class="card join-item w-86 bg-base-100 shadow-xl">
+<div class="card join-item w-86 bg-neutral-400 shadow-xl">
 
-<div class="card-body join-item">
-  <h2 class="card-title join-item">Quality Control</h2>
-  <p>All our products are packaged with dates of expirations listed. By placing close attention to these absolute dates, we ensure the quality remains across or product line within our vending machines.
+<div class="card-body join-item bg-warning">
+  <h2 class="card-title text-primary text-2xl join-item">Quality Control</h2>
+  <p class="text-black">All our products are packaged with dates of expirations listed. By placing close attention to these absolute dates, we ensure the quality remains across or product line within our vending machines.
   </p>
 </div>
 </div>
@@ -131,6 +132,7 @@ document.querySelector('#app').innerHTML = `
 </div>
 <center>
 <div>
+<br>
 <h1 class="text-5xl font-bold text-secondary">All the benefits at Zero cost to you!</h1>
 </div>
 <div class="divider"></div> 
