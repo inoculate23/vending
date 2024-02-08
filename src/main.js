@@ -22,7 +22,7 @@ document.querySelector('#app').innerHTML = `
 <div class="hero min-h-screen bg-base-200">
   <div class="hero-content flex-col lg:flex-row">
   
-  <iframe id="iframe" title="#3December 2023 - The Vendomatic 360" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/95e89daf76724f2f9eb1725ce52cbe39/embed?autospin=1&autostart=1&ui_infos=0&ui_watermark_link=0&ui_watermark=0&ui_hint=0&ui_theme=dark" width="100%" height="100vh"> </iframe> 
+  <img src="./images/pexels-photo-5196187.jpeg" alt="vending_hero_image" class="max-w-sm rounded-lg shadow-2xl" />
 
     <div>
       <h1 class="text-5xl text-primary font-bold">VendGo Machines 
@@ -139,7 +139,7 @@ document.querySelector('#app').innerHTML = `
 
 <section id="stats">
 <center>
-<h1 class="text-5xl font-bold">Statistics</h1>
+<h1 class="text-5xl shadow-3xl font-bold">Statistics</h1>
 <div class="stats shadow">
 
   <div class="stat">
@@ -181,22 +181,18 @@ document.querySelector('#app').innerHTML = `
 </center>
 </section>
 
+
 <div class="divider"></div> 
-
 <section id="about">
-<center>
-<h1 class="text-5xl font-bold">The SinCity Dream Team</h1>
-</center>
-<div class="hero max-h-screen bg-base-200">
-  <div class="hero-content text-center">
-    <div class="max-w-md">
 
-      </div>
-    
-<div class="card w-96 bg-base-100 shadow-xl">
+<center>
+<h1 class="text-5xl font-bold text-primary">The Sin City Dream Team</h1>
+<div class="join join-vertical lg:join-horizontal">
+
+<div class="card w-96 bg-base-100 shadow-xl join-item">
   <div class="card-body">
   
-  <figure><img src="/images/david.png" alt="David" /></figure>
+  <figure><img src="./images/staff/david_c.png" class="content rounded shadow-3xl"  alt="David" /></figure>
 
   <h1 class="text-2xl text-primary font-bold">David J. Frias</h1>
 <p class="text-sm text-accent">CO-CHIEF EXECUTIVE OFFICER</p>
@@ -204,10 +200,10 @@ document.querySelector('#app').innerHTML = `
     </div>
   </div>
 
-<div class="card w-96 bg-base-100 shadow-xl">
+<div class="card w-96 bg-base-100 shadow-xl join-item">
 <div class="card-body">
   
-  <figure><img src="/images/rich.png" alt="Richard" /></figure>
+  <figure><img src="./images/staff/rich_c.png" alt="Richard" class="content rounded shadow-3xl"  /></figure>
 
   <h1 class="text-2xl text-primary font-bold">Richard Lang
 
@@ -217,15 +213,15 @@ document.querySelector('#app').innerHTML = `
     </div>
   </div>
 
-  <div class="card w-96 bg-base-100 shadow-xl">
+  <div class="card w-96 bg-base-100 shadow-xl join-item">
 <div class="card-body">
   
-  <figure><img src="/images/sam.png" alt="Samantha" /></figure>
+  <figure><img src="./images/staff/samantha_c.png" alt="Samantha" class="content rounded shadow-3xl" /></figure>
 
   <h1 class="text-2xl text-primary font-bold">Samantha Kormoski</h1>
 <h3 class="text-sm text-accent">DIRECTOR OF MARKETING
 </h3>
-
+</center>
     </div>
   </div>
 </div>
@@ -239,23 +235,39 @@ document.querySelector('#app').innerHTML = `
 
 
 
-<section id="contact">
-<div class="contact-box">
-<img src="/images/woman.webp" width="45%"/><div class="contact-form-wrapper">
+<section id="contact" class="bg-dark">
+<div class="contact-box class="bg-secondary rounded-lg shadow-3xl">
+
+<img src="./images/worms.png" class="shadow-3xl join-horizontal" width="45%"/>
+<div class="contact-form-wrapper bg-neutral join-horizontal">
+
+
   <form>
     <div class="form-item text-accent text-3xl">
-      <input type="text" name="sender" required>
-      <label class="text-accent text-2xl">Name:</label>
+      <input type="text" class="input input-bordered input-primary w-full max-w-xs" placeholder="Name"></input>
+
     </div>
     <div class="form-item">
-      <input type="text" name="email" required>
-      <label class="text-accent text-2xl">Email:</label>
+    <input type="text" class="input input-bordered input-primary w-full max-w-xs" placeholder="Company"></input>
+     
+   
     </div>
     <div class="form-item">
-      <textarea class="" name="message" required></textarea>
-      <label class="text-accent text-2xl">Message:</label>
+    <input type="text" class="input input-bordered input-primary w-full max-w-xs" placeholder="Email"></input>
+     
+   
     </div>
-    <button class="submit-btn bg-primary">Send</button>  
+
+    <div class="form-item">
+    <input type="text" class="input input-bordered input-primary w-full max-w-xs" placeholder="Phone"></input>
+     
+   
+    </div>
+    <div class="form-item">
+      <input class="input input-bordered input-primary input-lg w-full max-w-xs"placeholder="Message" name="message"></input>
+     
+    </div>
+    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">Send</button>
   </form>
 </div>
 </div>
@@ -266,10 +278,7 @@ document.querySelector('#app').innerHTML = `
 
 <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded">
   <nav class="grid grid-flow-col gap-4">
-    <a class="link link-hover">About us</a>
-    <a class="link link-hover">Contact</a>
-    <a class="link link-hover">Jobs</a>
-    <a class="link link-hover">Press kit</a>
+
   </nav> 
   <nav>
     <div class="grid grid-flow-col gap-4">
