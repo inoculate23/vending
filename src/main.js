@@ -43,10 +43,10 @@ document.querySelector('#app').innerHTML = `
 <div class="join join-vertical lg:join-horizontal">
   
   <div class="card join-item w-86 bg-base-100 shadow-xl">
-  <figure><img src="./images/vending-machine-business/423_generated.jpg" alt="Shoes" /></figure>
+  <figure><img src="./images/vending-machine-business/423_generated.jpg" alt="novelty" /></figure>
   <div class="card-body join-item">
     <h2 class="card-title join-item">Novelty Vending Machine</h2>
-    <p>Are you ready for a delightful surprise? Step right up to our vending machine and discover a world of souvenirs and novelty items! From quirky keychains to adorable plush toys, we have something for everyone. Don't miss out on the chance to bring home a little piece of joy. Visit our vending machine today!</p>
+    <p>Are you ready for a delightful surprise? Step right up to our vending machine and discover a world of novelty items! From quirky keychains to adorable plush toys, we have something for everyone. Don't miss out on the chance to bring home a little piece of joy!</p>
     <div class="card-actions join-item justify-end">
       <button class="btn btn-primary join-item ">Book</button>
     </div>
@@ -54,10 +54,14 @@ document.querySelector('#app').innerHTML = `
 </div>
 
 <div class="card join-item w-86 bg-base-100 shadow-xl">
-<figure><img src="/./images/multi.jpeg" alt="Shoes" /></figure>
+<figure><img src="/./images/multi.jpeg" alt="multi" /></figure>
 <div class="card-body join-item">
   <h2 class="card-title join-item">Snack Vending Machines</h2>
-  <p>Are you ready for a delightful surprise? Step right up to our vending machine and discover a world of souvenirs and novelty items! From quirky keychains to adorable plush toys, we have something for everyone. Don't miss out on the chance to bring home a little piece of joy. Visit our vending machine today!</p>
+  <p>Our snack vending machine is here to satisfy your cravings with a wide variety of delicious treats. Whether you're in the mood for a salty snack, a sweet indulgence, or a healthy option, our vending machine has got you covered.
+  
+ 
+  
+  </p>
   <div class="card-actions join-item justify-end">
     <button class="btn btn-primary join-item ">Book</button>
   </div>
@@ -79,7 +83,7 @@ document.querySelector('#app').innerHTML = `
 <figure><img src="./images/vending-machine-queue/422_generated.jpg" alt="Shoes" /></figure>
 <div class="card-body join-item">
   <h2 class="card-title join-item">Combo Snack Machine</h2>
-  <p>Get your favorite drinks and snacks in one place! Our combo vending machine offers a wide selection of refreshing beverages and delicious snacks. Stay hydrated and satisfied throughout the day with our convenient and reliable vending solution. Upgrade your snacking experience today!
+  <p>Get your favorite drinks and snacks in one place! Our combo vending machine offers a wide selection of refreshing beverages and delicious snacks. Stay hydrated and satisfied throughout the day with our convenient and reliable vending solution.
   </p>
   <div class="card-actions join-item justify-end">
     <button class="btn btn-primary join-item">Book</button>
