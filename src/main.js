@@ -69,7 +69,7 @@ document.querySelector('#app').innerHTML = `
 </div>
 
 <div class="card join-item w-86 bg-base-100 shadow-xl">
-<figure><img src="./images/vending-machine-with-food-drink/421_generated.jpg"" alt="Shoes" /></figure>
+<figure><img src="./images/vending-machine-with-food-drink/421_generated.jpg"" alt="food" /></figure>
 <div class="card-body join-item">
   <h2 class="card-title join-item">Drink Vending Machine</h2>
   <p>Are you thirsty? Quench your thirst with our state-of-the-art vending machine! With just a touch, you'll have a refreshing drink in your hand. Stay hydrated and satisfied with our wide selection of beverages. Don't wait, visit our vending machine today!</p>
@@ -80,7 +80,7 @@ document.querySelector('#app').innerHTML = `
 </div>
 
 <div class="card join-item w-86 bg-base-100 shadow-xl">
-<figure><img src="./images/vending-machine-queue/422_generated.jpg" alt="Shoes" /></figure>
+<figure><img src="./images/vending-machine-queue/422_generated.jpg" alt="combo" /></figure>
 <div class="card-body join-item">
   <h2 class="card-title join-item">Combo Snack Machine</h2>
   <p>Get your favorite drinks and snacks in one place! Our combo vending machine offers a wide selection of refreshing beverages and delicious snacks. Stay hydrated and satisfied throughout the day with our convenient and reliable vending solution.
@@ -91,6 +91,17 @@ document.querySelector('#app').innerHTML = `
 </div>
 </div>
 
+<div class="card join-item w-86 bg-base-100 shadow-xl">
+<figure><img src="./images/vecteezy_cafe-showcase-vector-icon-design_20159966_631/vecteezy_cafe-showcase-vector-icon-design_20159966.png" alt="coffee" /></figure>
+<div class="card-body join-item">
+  <h2 class="card-title join-item">Coffee Machine</h2>
+  <p>With our coffee vending machine, you can enjoy a freshly brewed cup of coffee anytime. Whether you're at the office, in a hotel lobby, or at a busy event, our machine is there to satisfy your cravings. No more waiting in lines or settling for subpar coffee.
+  </p>
+  <div class="card-actions join-item justify-end">
+    <button class="btn btn-primary join-item">Book</button>
+  </div>
+</div>
+</div>
 </div>
 
 </section>
