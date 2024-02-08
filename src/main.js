@@ -4,7 +4,7 @@ document.querySelector('#app').innerHTML = `
 
 <div class="navbar bg-dark text-neutral-content">
 <div class="flex-1">
-<a href="./index.html"><button class="btn btn-secondary text-xl">Sin City Sweets</button></a>
+<a href="./index.html"><button class="btn btn-secondary text-sm">Sin City Sweets</button></a>
 </div>
 <div class="flex-none">
 <a href="#machines"><button  class="btn btn-primary text-l">Need a Vending Machine?</button></a>
